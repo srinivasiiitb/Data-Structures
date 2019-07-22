@@ -38,7 +38,6 @@ public class KnotsAndCrosses {
 
 	private static void solveKnotsAndCrosses(int m, int n, int k, char[][] a) {
 		
-		int count=0;
 		int xCount=0,oCount=0;
 		for(int i=0;i<m;i++) {
 			for(int j=0;j<n;j++) {
@@ -52,8 +51,8 @@ public class KnotsAndCrosses {
 	}
 
 	private static int countStreak(int m, int n, int k, char[][] a,int i,int j, char string) {
-    int count=0;
-    int t=1;
+    		int count=0;
+    		int t=1;
 		//horizontal check
 		while(t<k && i+t<m) {
 			if(a[i+t][j]!=string) break;
