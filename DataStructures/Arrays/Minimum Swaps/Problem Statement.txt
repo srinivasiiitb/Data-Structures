@@ -1,0 +1,56 @@
+Minimum Swaps
+Swapnil has a matrix of integers and wants to find the minimum number of swaps required to bring the largest element to the center of the matrix. Swaps can be made with horizontally and vertically adjacent elements only.
+
+For a matrix m x n, where m is the number of rows and n the number of columns. For even values of both m and n, there are 4 centers.
+
+He can do it with small matrices but for large ones, he’s lost. Help him solve this problem.
+
+Input Format
+The first line contains an integer t denoting the number of test cases. The first line of each test case contains two integers separated by space m and n denoting the number of rows and the number of columns in the matrix respectively. The following m lines describe the matrix. Each line consists of n integers, each i.
+
+Output Format
+For each test case, output the minimum number of swaps required. If there are several largest integers, output the minimum required to get any one of them to any one of the center positions.
+
+Constraints
+1 <= t <= 1000
+
+1 <= m,n <= 500
+
+1 <= i <= 105 
+
+
+Sample Input
+7
+3 3
+1 2 3
+4 5 6
+7 8 9
+4 3
+9 7 7
+4 2 8
+9 6 6
+8 3 2
+1 6
+1 5 2 3 4 5
+6 1
+3
+2
+1
+1
+2
+3
+2 2
+1 1
+1 1
+1 7
+2 3 1 2 1 2 3
+1 1
+2
+Sample Output
+2
+1
+1
+2
+0
+2
+0
