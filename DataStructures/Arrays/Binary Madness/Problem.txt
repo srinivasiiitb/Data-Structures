@@ -1,0 +1,65 @@
+Binary Madness
+Given a non-negative integer, find the count of substrings with an odd number of 0s in its binary representation and the count of substrings with an odd number of 1s in its binary representation.
+
+Input Format
+First line of input t denotes the number of test cases. Next t lines follow each containing a non-negative integer n.
+
+Output Format
+For each test case print the count of substrings with an odd number of 0s in its binary representation and the count of substrings with an odd number of 1s in its binary representation.
+
+Sample Input
+13
+0
+1
+2
+10
+17
+32
+33
+127
+341
+455
+496
+992
+1000
+Sample Output
+1 0
+0 1
+2 2
+6 6
+9 8
+12 6
+10 10
+0 16
+24 25
+25 24
+16 21
+24 24
+24 28
+Constraints
+1 <= t <= 100 
+0 <= n <= 10200
+
+Explanation
+For the number 17, the binary representation is 10001. Of all the 15 substrings, the following 9 substrings have odd number of 0s.
+
+10
+1000
+10001
+0
+000
+0001
+0
+0
+01
+And the following 8 substrings have odd number of 1s.
+
+1
+10
+100
+1000
+0001
+001
+01
+1
+Hence answer is 9 8.
