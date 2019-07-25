@@ -17,8 +17,7 @@ public class BinaryMadness{
 	 */
 	public static void main(String[] args) {
 
-      Scanner sc= new Scanner(System.in);
-		System.out.println(Long.MAX_VALUE);
+      		Scanner sc= new Scanner(System.in);
 		short t = Short.valueOf(sc.next());
 		for(int tc=0;tc<t;tc++) {
 		BigInteger n = new BigInteger(sc.next());	
